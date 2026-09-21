@@ -1,0 +1,19 @@
+PEDESTRIAN SIGNAL MODEL - WORK IN PROGRESS
+
+Classes:
+WALK
+DONT_WALK
+UNKNOWN
+
+Collect real images/video from the GSU intersections used by the project:
+- WALK symbol
+- red/orange hand
+- countdown/flashing state
+- different distances
+- glare/shadow
+- day/night
+- partial obstruction
+- signal not visible
+
+Then train/test a small classifier or object detector and implement inference
+inside crosswalk_detector.py. The navigation and motor code can stay unchanged.

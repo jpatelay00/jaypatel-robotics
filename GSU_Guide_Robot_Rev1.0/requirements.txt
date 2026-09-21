@@ -1,0 +1,3 @@
+numpy>=1.24
+# Install python3-picamera2 through Raspberry Pi OS apt.
+# Optional after training the model: tflite-runtime
